@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #334155;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px 18px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+.candidate-card {
+  background: #334155;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.ai-box {
+  background: #111827;
+  padding: 15px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
+.high {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.medium {
+  color: #facc15;
+  font-weight: bold;
+}
+
+.low {
+  color: #ef4444;
+  font-weight: bold;
+}
