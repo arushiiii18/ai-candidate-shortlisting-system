@@ -15,6 +15,13 @@ mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB Connected"))
 .catch((err) => console.log(err));
 
+app.get("/", (req, res) => {
+    res.send("Backend is running");
+});
+app.get("/api", (req, res) => {
+    res.send("API is working");
+});
+
 app.use("/api/candidates", candidateRoutes);
 app.use("/api", matchRoutes);
 const PORT = process.env.PORT || 5000;
